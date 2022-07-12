@@ -6005,7 +6005,7 @@
       (reference "JP4") (unit 1) (value "BOOTSEL") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
     )
     (path "/0628464d-f159-48ad-a7fa-e90b4d69db3c/eb9a67a8-c6b6-44ff-b1a9-5e1115b28d42"
-      (reference "Q1") (unit 1) (value "BTS3028") (footprint "Package_TO_SOT_SMD:TO-252-2")
+      (reference "Q1") (unit 1) (value "WSF60N06") (footprint "Package_TO_SOT_SMD:TO-252-2")
     )
     (path "/ade93f90-10ba-4385-938e-955f9eb1a838"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -6146,7 +6146,7 @@
       (reference "U7") (unit 5) (value "MCP6004") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
     )
     (path "/0628464d-f159-48ad-a7fa-e90b4d69db3c/b29c9e86-1c20-4edb-9765-5c548e96b048"
-      (reference "U8") (unit 1) (value "AD8628") (footprint "Package_TO_SOT_SMD:TSOT-23-5")
+      (reference "U8") (unit 1) (value "OPA388IDR") (footprint "Package_TO_SOT_SMD:TSOT-23-5")
     )
     (path "/0628464d-f159-48ad-a7fa-e90b4d69db3c/0a051128-53eb-44fb-bab1-226cfd235db0"
       (reference "U9") (unit 1) (value "REF3033") (footprint "Package_TO_SOT_SMD:SOT-23")

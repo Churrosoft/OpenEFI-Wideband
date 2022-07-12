@@ -1,6 +1,7 @@
 from enum import Enum
 from pid import PID
-from can_wrapper import HeaterAllow, get_heater_allowed
+from can_wrapper import HeaterAllow, get_heater_allowed, get_efi_voltage
+from sampling import get_heater_esr, get_vbat
 from wideband_config import (HEATER_CONTROL_PERIOD, HEATER_TARGET_ESR,
                              HEATER_PREHEAT_TIME, HEATER_BATTERY_STAB_TIME,
                              HEATER_BATTETY_OFF_VOLTAGE,
@@ -77,23 +78,23 @@ def get_next_state(heaterAllowState, batteryVoltage, sensorEsr):
     return HS.heater_status
 
 
-def get_voltage_for_state(state, heaterEsr):
-    if (state == HeaterStatus.Preheat):
+def get_voltage_for_state(heaterEsr):
+    if (HS.heater_status == HeaterStatus.Preheat):
         return 1.5
 
-    if (state == HeaterStatus.WarmupRamp):
+    if (HS.heater_status == HeaterStatus.WarmupRamp):
         if (HS.ramp_voltage < 10):
             # 0.3 volt per second, divided by battery voltage and update rate
             HS.heater_frequency = 1000.0 / HEATER_CONTROL_PERIOD
             HS.ramp_voltage += (0.3 / HS.heater_frequency)
 
-    if (state == HeaterStatus.ClosedLoop):
+    if (HS.heater_status == HeaterStatus.ClosedLoop):
         # "nominal" heater voltage is 7.5v, so apply correction around that
         # point (instead of relying on integrator so much)
         # Negated because lower resistance -> hotter
         return 7.5 - HS.heater_pid.GetOutput(HEATER_TARGET_ESR, heaterEsr)
 
-    if (state == HeaterStatus.Stopped):
+    if (HS.heater_status == HeaterStatus.Stopped):
         # algo c rompio:
         return 0
 
@@ -122,3 +123,32 @@ def describe_heater_status():
     elif (HS.heater_status == HeaterStatus.Stopped):
         return "Stopped"
     return "Unknow"
+
+
+def heater_thread():
+    heater_esr = get_heater_esr()
+    efi_allowed = get_heater_allowed()
+
+    battery_voltage = 0
+
+    if HS.heater_status == HeaterAllow.Unknown:
+        battery_voltage = get_vbat()
+    else:
+        battery_voltage = get_efi_voltage()
+
+    get_next_state(efi_allowed, battery_voltage, heater_esr)
+    heater_voltage = get_voltage_for_state(heater_esr)
+
+    if heater_voltage > 11:
+        heater_voltage = 11
+
+    # duty = (V_eff / V_batt) ^ 2
+    duty = (heater_voltage / battery_voltage) ** 2
+
+    if(battery_voltage < 23):
+        # heater_pwm(duty)
+        pass
+    else:
+        # heater_pwm(0)
+        pass
+    pass

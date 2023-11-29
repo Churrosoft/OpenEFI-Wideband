@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "OpenEFI_LIB")(type "KiCad")(uri "${KIPRJMOD}/OpenEFI_LIB.kicad_sym")(options "")(descr ""))
+)

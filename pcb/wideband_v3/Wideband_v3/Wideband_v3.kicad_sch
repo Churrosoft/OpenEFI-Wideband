@@ -7914,10 +7914,6 @@
 					(reference "#PWR057")
 					(unit 1)
 				)
-				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/8f3b37b5-db17-4488-aba9-8d1ed80a11d5"
-					(reference "#PWR039")
-					(unit 1)
-				)
 			)
 			(project "OpenEFI_rev4"
 				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/00000000-0000-0000-0000-00005f782f71"

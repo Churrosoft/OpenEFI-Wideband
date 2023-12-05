@@ -12649,7 +12649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d688ed3d-377c-47da-9a36-d9ac291826de")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR036"
 			(at 255.27 62.23 0)
 			(effects
 				(font

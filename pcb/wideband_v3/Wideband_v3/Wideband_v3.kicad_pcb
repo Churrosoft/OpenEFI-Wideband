@@ -274,7 +274,7 @@
 		(path "/3737bf71-68b2-46c2-b6f0-6262322b912b/d0f04210-650c-4075-a59a-f51680a07857")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -452,7 +452,7 @@
 		(path "/3737bf71-68b2-46c2-b6f0-6262322b912b/56a8513c-40f3-450f-99cb-41e6ba0e12fa")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.06 -1.06)
 			(end 0 -1.06)
@@ -1465,7 +1465,7 @@
 		(path "/3737bf71-68b2-46c2-b6f0-6262322b912b/b47b9630-08c8-4f4a-a1e5-90bb4cda22c4")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -1640,7 +1640,7 @@
 		(path "/3737bf71-68b2-46c2-b6f0-6262322b912b/7998c2ec-b298-4713-8c66-619f86f99875")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.73 4.12)
 			(end -1.52 4.12)
@@ -2424,7 +2424,7 @@
 		(path "/4ab6bc3a-59bb-46e3-810e-4131afa2fdd5")
 		(sheetname "Root")
 		(sheetfile "Wideband_v3.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -3142,7 +3142,7 @@
 		(path "/3737bf71-68b2-46c2-b6f0-6262322b912b/14fafe20-9b81-4c8f-9bea-35d640dacfed")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -5944,7 +5944,7 @@
 		(path "/3d90f88f-ee28-49b5-aadb-aec2278f0dc6")
 		(sheetname "Root")
 		(sheetfile "Wideband_v3.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -6115,7 +6115,7 @@
 		(path "/3737bf71-68b2-46c2-b6f0-6262322b912b/6c19979f-9754-4c04-a6e1-f1620e6a4061")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.4 -1)
 			(end 1.4 1)
@@ -6746,7 +6746,7 @@
 		(path "/81fe700a-cf8e-4dd0-8539-0dc1eec3bfe3")
 		(sheetname "Root")
 		(sheetfile "Wideband_v3.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -13.843 -11.684) (xy 15.367 -11.684001) (xy 15.367 9.906) (xy -13.843 9.906)
@@ -10038,7 +10038,7 @@
 		(path "/3737bf71-68b2-46c2-b6f0-6262322b912b/4a007b0d-08fa-47cf-b962-b35b1a28c816")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -11374,7 +11374,7 @@
 		(path "/3737bf71-68b2-46c2-b6f0-6262322b912b/8df57aa7-0c5c-40e8-b830-d2ae08b9e9b4")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.905 1.27)
 			(end -1.905 0.635)
@@ -17087,7 +17087,7 @@
 		(path "/f41d6ff3-cb2f-448b-89b7-17e2f93275ef")
 		(sheetname "Root")
 		(sheetfile "Wideband_v3.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -17465,7 +17465,7 @@
 		(path "/3737bf71-68b2-46c2-b6f0-6262322b912b/df27a2d0-a45d-442f-9ebd-08014d39789a")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.3 2.75)
 			(end -1.749999 2.3)
@@ -17969,7 +17969,7 @@
 		(path "/46b22b39-7bd9-428f-831a-f10050aecbac")
 		(sheetname "Root")
 		(sheetfile "Wideband_v3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.05 -0.25)
 			(end -3.05 2.6)
@@ -19552,7 +19552,7 @@
 		(path "/8f3b37b5-db17-4488-aba9-8d1ed80a11d5/8dcbdf7a-51fc-4bb7-bf86-355111ac8c34")
 		(sheetname "POWER")
 		(sheetfile "power.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.4 0.300001)
 			(end -1.4 -0.300001)
@@ -21061,7 +21061,7 @@
 		(path "/a0800fdb-c3c5-43a0-a4f0-5d2e48412e83")
 		(sheetname "Root")
 		(sheetfile "Wideband_v3.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.05 -0.25)
 			(end -3.05 2.6)

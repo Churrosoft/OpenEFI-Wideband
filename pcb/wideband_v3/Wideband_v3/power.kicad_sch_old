@@ -2211,16 +2211,6 @@
 		)
 		(uuid "6774f041-1e86-4762-9219-008881c43303")
 	)
-	(text "Tambien sirven:\nNTMS4177PR2G"
-		(exclude_from_sim no)
-		(at 220.218 107.442 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d7ef57f0-9914-4603-b177-e17b8ab43b0e")
-	)
 	(text "Surge Protection"
 		(exclude_from_sim no)
 		(at 191.135 127.635 0)

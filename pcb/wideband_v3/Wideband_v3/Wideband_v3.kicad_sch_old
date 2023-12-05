@@ -1491,128 +1491,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:1N4148W"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -3530,16 +3408,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 95.25) (xy 245.11 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11055f10-1a4b-4dba-a6f3-a1e5a6e60812")
-	)
-	(wire
-		(pts
 			(xy 101.6 161.29) (xy 97.79 161.29)
 		)
 		(stroke
@@ -3750,6 +3618,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 95.25) (xy 245.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e01ad8b-35b0-4a4c-8a51-d603b67c35de")
+	)
+	(wire
+		(pts
 			(xy 52.07 53.34) (xy 54.61 53.34)
 		)
 		(stroke
@@ -3760,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 95.25) (xy 231.14 95.25)
+			(xy 228.6 95.25) (xy 226.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3797,6 +3675,16 @@
 			(type default)
 		)
 		(uuid "5be3e3af-e782-4c6e-8d54-7da29d2ff67f")
+	)
+	(wire
+		(pts
+			(xy 105.41 36.83) (xy 105.41 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6075b058-04d9-4473-959f-815c712cd7fb")
 	)
 	(wire
 		(pts
@@ -3937,16 +3825,6 @@
 			(type default)
 		)
 		(uuid "92efe5d4-f1d5-4253-bdda-c2562fcee6dc")
-	)
-	(wire
-		(pts
-			(xy 105.41 34.29) (xy 105.41 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9433cb1c-fd0b-4838-a424-fb5676b92d09")
 	)
 	(wire
 		(pts
@@ -5202,6 +5080,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 105.41 33.02 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b08ee71-4eea-49b1-9193-7703b523fc69")
+		(property "Reference" "R16"
+			(at 111.1758 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 108.8644 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 103.632 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeb23c1d-ab92-4261-9e2c-02ba2ff3d063")
+		)
+		(pin "2"
+			(uuid "3b82314e-d768-4d6a-bc2f-dd5bf3e600bd")
+		)
+		(instances
+			(project "Wideband_v3"
+				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "OpenEFI_rev4"
+				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+12V_1")
 		(lib_id "power:+12V")
 		(at 105.41 87.63 0)
@@ -5838,96 +5790,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 233.68 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "399f1309-bdd5-40a5-8707-581359ae96c0")
-		(property "Reference" "R20"
-			(at 233.68 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k"
-			(at 233.68 97.155 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 233.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 233.68 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4aa9ee4d-d9d5-46b4-a85a-eceaf90dcb64")
-		)
-		(pin "2"
-			(uuid "fb81e357-b2ec-40bc-b954-0b020e4add3d")
-		)
-		(instances
-			(project "Wideband_v3"
-				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/8f3b37b5-db17-4488-aba9-8d1ed80a11d5"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "OpenEFI_rev4"
-				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/00000000-0000-0000-0000-00005f782f71"
-					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Alt")
 		(at 116.84 91.44 90)
 		(unit 1)
@@ -6067,96 +5929,6 @@
 			(project "board_carrier"
 				(path "/ced346c9-14a8-4e20-a33d-cc66a3846faa"
 					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 105.41 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43e9d948-2cf4-4d65-a50b-081bf00084e9")
-		(property "Reference" "R20"
-			(at 102.87 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k"
-			(at 107.315 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 102.87 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a08da4a7-31d4-4761-af2a-8bd381b59082")
-		)
-		(pin "2"
-			(uuid "ac525bfb-d760-4931-9d1b-efe9c4446e77")
-		)
-		(instances
-			(project "Wideband_v3"
-				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/8f3b37b5-db17-4488-aba9-8d1ed80a11d5"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "OpenEFI_rev4"
-				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/00000000-0000-0000-0000-00005f782f71"
-					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -8072,96 +7844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 238.76 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "accaeb1d-d56c-49a6-8114-8196327620ef")
-		(property "Reference" "R20"
-			(at 238.76 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "30k"
-			(at 238.76 97.155 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 238.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22984"
-			(at 238.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60896dbc-198b-4b41-87be-faee7af8b984")
-		)
-		(pin "2"
-			(uuid "e5473958-9ac5-4b34-9404-d52a5f1670b9")
-		)
-		(instances
-			(project "Wideband_v3"
-				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/8f3b37b5-db17-4488-aba9-8d1ed80a11d5"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "OpenEFI_rev4"
-				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/00000000-0000-0000-0000-00005f782f71"
-					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 228.6 52.07 0)
 		(unit 1)
@@ -8628,6 +8310,80 @@
 			(project "mixer"
 				(path "/6659df1e-f79d-4362-bc60-73630d9d1a8e"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 95.25 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5effd00-159d-4f5f-a4ad-bbb19e9df816")
+		(property "Reference" "R17"
+			(at 232.664 101.0158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 232.664 98.7044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 232.41 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e896a07-03cb-4d4b-8acb-ae8b509f4e81")
+		)
+		(pin "2"
+			(uuid "26f4f57b-1780-43b8-b5a8-2a577d1fb7fe")
+		)
+		(instances
+			(project "Wideband_v3"
+				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+			(project "OpenEFI_rev4"
+				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9"
+					(reference "R34")
 					(unit 1)
 				)
 			)

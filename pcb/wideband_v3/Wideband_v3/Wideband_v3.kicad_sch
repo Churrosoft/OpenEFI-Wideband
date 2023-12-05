@@ -5846,7 +5846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "399f1309-bdd5-40a5-8707-581359ae96c0")
-		(property "Reference" "R20"
+		(property "Reference" "R7"
 			(at 233.68 92.71 90)
 			(effects
 				(font
@@ -5906,10 +5906,6 @@
 		)
 		(instances
 			(project "Wideband_v3"
-				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/8f3b37b5-db17-4488-aba9-8d1ed80a11d5"
-					(reference "R20")
-					(unit 1)
-				)
 				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc"
 					(reference "R7")
 					(unit 1)
@@ -6081,7 +6077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43e9d948-2cf4-4d65-a50b-081bf00084e9")
-		(property "Reference" "R20"
+		(property "Reference" "R9"
 			(at 102.87 31.75 90)
 			(effects
 				(font
@@ -6141,10 +6137,6 @@
 		)
 		(instances
 			(project "Wideband_v3"
-				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/8f3b37b5-db17-4488-aba9-8d1ed80a11d5"
-					(reference "R20")
-					(unit 1)
-				)
 				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc"
 					(reference "R9")
 					(unit 1)
@@ -8080,7 +8072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "accaeb1d-d56c-49a6-8114-8196327620ef")
-		(property "Reference" "R20"
+		(property "Reference" "R8"
 			(at 238.76 92.71 90)
 			(effects
 				(font
@@ -8140,10 +8132,6 @@
 		)
 		(instances
 			(project "Wideband_v3"
-				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/8f3b37b5-db17-4488-aba9-8d1ed80a11d5"
-					(reference "R20")
-					(unit 1)
-				)
 				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc"
 					(reference "R8")
 					(unit 1)

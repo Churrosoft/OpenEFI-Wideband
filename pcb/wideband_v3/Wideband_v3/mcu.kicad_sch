@@ -704,22 +704,22 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x11"
+		(symbol "Connector_Generic:Conn_01x14"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 15.24 0)
+				(at 0 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x11"
-				(at 0 -15.24 0)
+			(property "Value" "Conn_01x14"
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -744,7 +744,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -771,7 +771,29 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x11_1_1"
+			(symbol "Conn_01x14_1_1"
+				(rectangle
+					(start -1.27 -17.653)
+					(end 0 -17.907)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 -12.573)
 					(end 0 -12.827)
@@ -894,8 +916,19 @@
 					)
 				)
 				(rectangle
-					(start -1.27 13.97)
-					(end 1.27 -13.97)
+					(start -1.27 15.367)
+					(end 0 15.113)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 16.51)
+					(end 1.27 -19.05)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -905,7 +938,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at -5.08 15.24 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -923,7 +956,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -941,7 +974,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -959,7 +992,61 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 0)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -977,7 +1064,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -995,7 +1082,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1013,7 +1100,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1031,7 +1118,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1049,7 +1136,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1067,7 +1154,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1085,7 +1172,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -4892,14 +4979,6 @@
 		(uuid "0e57c38e-8955-40d7-8466-aae4a12f0acc")
 	)
 	(no_connect
-		(at 119.38 88.9)
-		(uuid "0e5fb3b2-89e0-4362-ab44-1b32405c6033")
-	)
-	(no_connect
-		(at 119.38 91.44)
-		(uuid "109b8669-e2cc-49d3-ae7d-fa658e3820b6")
-	)
-	(no_connect
 		(at 119.38 129.54)
 		(uuid "12f25e71-45f3-4d69-bbfc-eaf4a2262dd2")
 	)
@@ -4922,10 +5001,6 @@
 	(no_connect
 		(at 44.45 57.15)
 		(uuid "b5a52fa5-8f0f-4618-8c7a-b88728fd9d8f")
-	)
-	(no_connect
-		(at 119.38 93.98)
-		(uuid "dad763e3-a4ed-494f-9a8c-4cb7f40f7dd3")
 	)
 	(no_connect
 		(at 119.38 60.96)
@@ -4967,7 +5042,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 185.42) (xy 24.13 185.42)
+			(xy 29.21 172.72) (xy 26.67 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5067,7 +5142,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 177.8) (xy 26.67 177.8)
+			(xy 26.67 165.1) (xy 29.21 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5107,7 +5182,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 175.26) (xy 26.67 175.26)
+			(xy 26.67 162.56) (xy 29.21 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5207,7 +5282,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 172.72) (xy 26.67 172.72)
+			(xy 26.67 160.02) (xy 29.21 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5304,6 +5379,16 @@
 			(type default)
 		)
 		(uuid "2bdb04b4-24f9-45c0-b94f-e93a524a0711")
+	)
+	(wire
+		(pts
+			(xy 26.67 175.26) (xy 29.21 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1c5f35-2415-4353-810b-90fc1710e8de")
 	)
 	(wire
 		(pts
@@ -5494,6 +5579,16 @@
 			(type default)
 		)
 		(uuid "38607ba8-d818-4330-8c87-fc3edb687058")
+	)
+	(wire
+		(pts
+			(xy 26.67 149.86) (xy 29.21 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3969da87-3fa8-4e9c-805e-1a6314a8dc80")
 	)
 	(wire
 		(pts
@@ -5777,6 +5872,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 152.4) (xy 29.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2ebdbd-d159-421a-b2ad-c113213fe564")
+	)
+	(wire
+		(pts
 			(xy 223.52 16.51) (xy 223.52 17.78)
 		)
 		(stroke
@@ -5794,16 +5899,6 @@
 			(type default)
 		)
 		(uuid "60450b6c-d31c-4225-856d-0286ac231176")
-	)
-	(wire
-		(pts
-			(xy 24.13 187.96) (xy 26.67 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "604fcef0-2010-4f01-a489-9a7575b60431")
 	)
 	(wire
 		(pts
@@ -5997,7 +6092,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 162.56) (xy 24.13 162.56)
+			(xy 29.21 142.24) (xy 26.67 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6327,7 +6422,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 165.1) (xy 36.83 165.1)
+			(xy 26.67 144.78) (xy 39.37 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6337,7 +6432,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 167.64) (xy 26.67 167.64)
+			(xy 26.67 154.94) (xy 29.21 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6577,7 +6672,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 180.34) (xy 26.67 180.34)
+			(xy 26.67 167.64) (xy 29.21 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6687,7 +6782,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 182.88) (xy 24.13 182.88)
+			(xy 29.21 170.18) (xy 26.67 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6867,6 +6962,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 93.98) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0d9cc1-cfd1-488e-aac9-4ea6bd5bcc04")
+	)
+	(wire
+		(pts
+			(xy 116.84 88.9) (xy 119.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be142322-a79f-4ea3-a906-64b55dece939")
+	)
+	(wire
+		(pts
 			(xy 232.41 16.51) (xy 232.41 13.97)
 		)
 		(stroke
@@ -6894,6 +7009,16 @@
 			(type default)
 		)
 		(uuid "c0086cda-e11e-4a12-9aff-b6c5c97458b0")
+	)
+	(wire
+		(pts
+			(xy 26.67 147.32) (xy 29.21 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ade36b-6e3c-4d18-ae7a-0c0f73c1724b")
 	)
 	(wire
 		(pts
@@ -6927,7 +7052,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 170.18) (xy 26.67 170.18)
+			(xy 26.67 157.48) (xy 29.21 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7267,6 +7392,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 176.53) (xy 29.21 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e264af8d-07e2-4b84-a257-02b4a2d38bf3")
+	)
+	(wire
+		(pts
 			(xy 93.98 68.58) (xy 93.98 52.07)
 		)
 		(stroke
@@ -7437,6 +7572,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 91.44) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e5d3d5-6fae-4e13-ad53-9754718f0871")
+	)
+	(wire
+		(pts
 			(xy 264.16 152.4) (xy 269.24 152.4)
 		)
 		(stroke
@@ -7560,7 +7705,7 @@
 		(uuid "fb009fb8-2bb3-45dc-a780-d64ffc2831cd")
 	)
 	(label "GPIO20"
-		(at 26.67 182.88 0)
+		(at 29.21 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7571,7 +7716,7 @@
 		(uuid "16a683ec-38cd-4775-8716-f77e4002d064")
 	)
 	(label "GPIO21"
-		(at 26.67 185.42 0)
+		(at 29.21 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7580,6 +7725,17 @@
 			(justify left bottom)
 		)
 		(uuid "1baa38ae-bcc1-49c4-b2d9-94600d5226d5")
+	)
+	(label "GPIO12"
+		(at 116.84 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1dcd996d-acdf-4373-93eb-062ca3ddd6bb")
 	)
 	(label "FORCE_BOOTLOADER"
 		(at 242.57 44.45 0)
@@ -7648,7 +7804,7 @@
 		(uuid "5b8f6711-bfa5-452b-89d2-98fba8dbf2a4")
 	)
 	(label "GPIO17"
-		(at 26.67 175.26 0)
+		(at 29.21 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7657,6 +7813,17 @@
 			(justify left bottom)
 		)
 		(uuid "5e289dec-867a-4670-aeb2-679c9bb03808")
+	)
+	(label "GPIO12"
+		(at 29.21 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64ad7ff1-6d00-4bcb-bf79-18bb5e7013c6")
 	)
 	(label "NRST"
 		(at 185.42 113.03 0)
@@ -7692,7 +7859,7 @@
 		(uuid "74b4dcd3-6e46-4bec-975b-5b0500d2a514")
 	)
 	(label "GPIO16"
-		(at 26.67 172.72 0)
+		(at 29.21 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7725,7 +7892,7 @@
 		(uuid "7ec31a80-8237-427a-862c-77ddd031313c")
 	)
 	(label "GPIO15"
-		(at 26.67 170.18 0)
+		(at 29.21 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7734,6 +7901,28 @@
 			(justify left bottom)
 		)
 		(uuid "862cd9bc-7ad3-4d1b-964a-d99594fe3754")
+	)
+	(label "GPIO13"
+		(at 116.84 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86f1bd59-5b71-41fc-bebc-efa57eb96cb6")
+	)
+	(label "GPIO11"
+		(at 29.21 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bf7366d-d61d-49c6-adcc-d7850aee39c6")
 	)
 	(label "SYS_SWCLK"
 		(at 60.96 187.325 0)
@@ -7747,7 +7936,7 @@
 		(uuid "94bd8d9a-03e0-4930-8a05-e23ea8d7f671")
 	)
 	(label "GPIO18"
-		(at 26.67 177.8 0)
+		(at 29.21 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7780,7 +7969,7 @@
 		(uuid "9c5fdd0c-95da-48d7-a56c-219f6329f622")
 	)
 	(label "GPIO19"
-		(at 26.67 180.34 0)
+		(at 29.21 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7811,6 +8000,17 @@
 			(justify right bottom)
 		)
 		(uuid "be069813-79bf-46c6-847c-c7fcceaa88ef")
+	)
+	(label "GPIO13"
+		(at 29.21 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6792cf4-a467-4651-995e-165177a25926")
 	)
 	(label "SYS_SWDIO"
 		(at 60.96 184.785 0)
@@ -7857,7 +8057,7 @@
 		(uuid "e0868bc1-7de3-4930-9a60-1d3ddfa0b2c3")
 	)
 	(label "GPIO14"
-		(at 26.67 167.64 0)
+		(at 29.21 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7888,6 +8088,17 @@
 			(justify right bottom)
 		)
 		(uuid "f012e959-7209-430e-a5aa-94edefdf069f")
+	)
+	(label "GPIO11"
+		(at 116.84 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f259b428-326e-4d44-b14d-7377a4859c7a")
 	)
 	(label "CF_CONF0"
 		(at 269.24 147.32 0)
@@ -8125,6 +8336,128 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x14")
+		(at 21.59 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fa442a9-49d3-4f8c-984c-3719b8107a59")
+		(property "Reference" "J1"
+			(at 21.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x14"
+			(at 21.59 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
+			(at 21.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 21.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7016c31f-c467-4d1a-b09f-2a5ff6824d03")
+		)
+		(pin "13"
+			(uuid "3b58da05-138c-41ad-840b-d5b2fc4327bc")
+		)
+		(pin "4"
+			(uuid "8a8bb251-a969-4f98-829a-86976254eb53")
+		)
+		(pin "8"
+			(uuid "4216ce82-7fa5-45c8-968d-3bc18160a872")
+		)
+		(pin "9"
+			(uuid "932cc0c8-cd4a-4cbd-902c-a9c933452306")
+		)
+		(pin "11"
+			(uuid "88081e5d-24e1-47bb-9ac3-5149e748b9a6")
+		)
+		(pin "3"
+			(uuid "0e4ee265-ed24-4641-affe-97e1d556694a")
+		)
+		(pin "6"
+			(uuid "f2bbb335-09d8-492d-ac80-d403a64380fc")
+		)
+		(pin "14"
+			(uuid "73ed3384-9d94-49f2-83fa-24fd50f15bb7")
+		)
+		(pin "2"
+			(uuid "bf16ced6-1cd7-432a-8b60-608a21e5b3eb")
+		)
+		(pin "10"
+			(uuid "8cc52d2c-fe5c-41f7-b2da-6e37bcbb71ab")
+		)
+		(pin "1"
+			(uuid "8e409a0a-8877-4a35-bed4-7ddf3b417371")
+		)
+		(pin "12"
+			(uuid "9e51cf50-acc3-4c50-899a-ea1c58a3a88a")
+		)
+		(pin "5"
+			(uuid "233cc978-e020-4dcc-9001-6c5eb0e82862")
+		)
+		(instances
+			(project "Wideband_v3"
+				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/3737bf71-68b2-46c2-b6f0-6262322b912b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "7_Segment_LED_v1"
+				(path "/d8ed5b7f-f827-4f31-834b-3d6b303fc344"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8193,6 +8526,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8268,6 +8607,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8337,6 +8682,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8413,6 +8764,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8473,6 +8830,12 @@
 		(instances
 			(project "Wideband_v3"
 				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/3737bf71-68b2-46c2-b6f0-6262322b912b"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
 					(reference "H4")
 					(unit 1)
 				)
@@ -8553,6 +8916,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8623,6 +8992,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8702,6 +9077,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8772,6 +9153,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -8848,6 +9235,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8917,6 +9310,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9162,6 +9561,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9231,6 +9636,12 @@
 			(project "OpenEFI_rev4"
 				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/00000000-0000-0000-0000-00005f782f71"
 					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9310,6 +9721,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9379,6 +9796,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9452,6 +9875,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "JP4")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -9533,6 +9962,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9601,6 +10036,12 @@
 			(project "OpenEFI_rev4"
 				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/00000000-0000-0000-0000-00005f782f71"
 					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -9682,6 +10123,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9752,6 +10199,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9826,6 +10279,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9890,11 +10349,17 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "H2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12VA")
-		(at 36.83 165.1 0)
+		(at 39.37 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9902,7 +10367,7 @@
 		(dnp no)
 		(uuid "5438bfed-4f5f-454d-8de4-62f6a8415eb4")
 		(property "Reference" "#PWR037"
-			(at 36.83 168.91 0)
+			(at 39.37 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9911,7 +10376,7 @@
 			)
 		)
 		(property "Value" "+12VA"
-			(at 37.211 160.7058 0)
+			(at 39.751 140.3858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9919,7 +10384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 165.1 0)
+			(at 39.37 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9928,7 +10393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 165.1 0)
+			(at 39.37 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,7 +10402,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 165.1 0)
+			(at 39.37 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,6 +10423,12 @@
 			(project "OpenEFI_rev4"
 				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/00000000-0000-0000-0000-00005f782f71"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10033,105 +10504,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x11")
-		(at 19.05 175.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56a8513c-40f3-450f-99cb-41e6ba0e12fa")
-		(property "Reference" "J1"
-			(at 19.05 157.5902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x10"
-			(at 19.05 160.1271 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x11_P2.00mm_Vertical"
-			(at 19.05 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 19.05 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bec0fdc-5786-4035-9329-ab4e0a497e67")
-		)
-		(pin "10"
-			(uuid "390d9493-ad7b-4d72-ad84-f17ad4eca0c4")
-		)
-		(pin "11"
-			(uuid "7186e3bb-7479-4cda-8555-fb19eaddcbd7")
-		)
-		(pin "2"
-			(uuid "bafa4922-7d96-4f4a-9e99-df59453aa3fd")
-		)
-		(pin "3"
-			(uuid "1311b361-00c9-4668-8b20-fc3df3264b3b")
-		)
-		(pin "4"
-			(uuid "7ca0bcd6-2845-4fed-972a-114f6f79d88e")
-		)
-		(pin "5"
-			(uuid "1f23d1b3-ed3b-4819-9703-b35118a046d2")
-		)
-		(pin "6"
-			(uuid "0f5f7562-1ed1-4821-be13-ec93bb1bd0cd")
-		)
-		(pin "7"
-			(uuid "bfca7ce4-d426-4671-8e29-0a9e85006631")
-		)
-		(pin "8"
-			(uuid "3019664e-cfc4-4cc8-8dfc-7ed2e7ba225d")
-		)
-		(pin "9"
-			(uuid "f7a6fe24-4541-431e-a49b-fd06ac110399")
-		)
-		(instances
-			(project "Wideband_v3"
-				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/3737bf71-68b2-46c2-b6f0-6262322b912b"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project "churrodeck"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J3")
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10211,6 +10586,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10283,6 +10664,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -10371,6 +10758,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10444,6 +10837,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10522,6 +10921,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10592,6 +10997,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10672,6 +11083,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10735,6 +11152,12 @@
 		(instances
 			(project "Wideband_v3"
 				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/3737bf71-68b2-46c2-b6f0-6262322b912b"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
 					(reference "D1")
 					(unit 1)
 				)
@@ -10815,6 +11238,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10883,6 +11312,12 @@
 			)
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -10960,6 +11395,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11033,6 +11474,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11102,6 +11549,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11178,6 +11631,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11248,6 +11707,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11327,6 +11792,94 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c694d01-c353-4224-a955-6ad53f26ff95")
+		(property "Reference" "#PWR06"
+			(at 29.21 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 180.9734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e48a3a59-2958-4996-bd0c-d8f9e44b82d3")
+		)
+		(instances
+			(project "Wideband_v3"
+				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/3737bf71-68b2-46c2-b6f0-6262322b912b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "7_Segment_LED_v1"
+				(path "/d8ed5b7f-f827-4f31-834b-3d6b303fc344"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "churrodeck"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11396,6 +11949,12 @@
 			(project "OpenEFI_rev4"
 				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/00000000-0000-0000-0000-00005f782f71"
 					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11472,6 +12031,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11544,6 +12109,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11613,6 +12184,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11709,6 +12286,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11782,6 +12365,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11860,6 +12449,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11928,6 +12523,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12003,6 +12604,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12072,6 +12679,12 @@
 			)
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
 					(reference "C16")
 					(unit 1)
 				)
@@ -12152,6 +12765,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12223,11 +12842,17 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 26.67 162.56 0)
+		(at 29.21 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12236,7 +12861,7 @@
 		(fields_autoplaced yes)
 		(uuid "af2db048-593f-4185-965e-891f7fb027dd")
 		(property "Reference" "#PWR034"
-			(at 26.67 166.37 0)
+			(at 29.21 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12245,7 +12870,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 26.67 157.48 0)
+			(at 29.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12253,7 +12878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 162.56 0)
+			(at 29.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12262,7 +12887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 162.56 0)
+			(at 29.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,7 +12896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 162.56 0)
+			(at 29.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12298,6 +12923,12 @@
 			(project "mixer"
 				(path "/6659df1e-f79d-4362-bc60-73630d9d1a8e"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12372,6 +13003,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12432,6 +13069,12 @@
 		(instances
 			(project "Wideband_v3"
 				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/3737bf71-68b2-46c2-b6f0-6262322b912b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
 					(reference "H1")
 					(unit 1)
 				)
@@ -12505,6 +13148,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12584,6 +13233,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12652,6 +13307,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12726,6 +13387,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12786,6 +13453,12 @@
 		(instances
 			(project "Wideband_v3"
 				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/3737bf71-68b2-46c2-b6f0-6262322b912b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
 					(reference "H3")
 					(unit 1)
 				)
@@ -12852,6 +13525,12 @@
 		(instances
 			(project "Wideband_v3"
 				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/3737bf71-68b2-46c2-b6f0-6262322b912b"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
 					(reference "#PWR036")
 					(unit 1)
 				)
@@ -12932,6 +13611,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13008,6 +13693,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13077,6 +13768,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -13155,75 +13852,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7346971-d6a9-46da-bf16-c2ae0dab13bd")
-		(property "Reference" "#PWR06"
-			(at 26.67 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 192.4034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52983106-62d4-4c9b-9a0b-4c398920177d")
-		)
-		(instances
-			(project "Wideband_v3"
-				(path "/08893845-3ad0-4661-81a4-b965d2c3e6dc/3737bf71-68b2-46c2-b6f0-6262322b912b"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "churrodeck"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR023")
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -13299,6 +13930,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13367,6 +14004,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13458,6 +14101,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13527,6 +14176,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -13603,6 +14258,12 @@
 				)
 				(path "/b282ce4b-c3d0-4c94-b06c-73b92bb672a9/00000000-0000-0000-0000-00005f782f71"
 					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -13697,6 +14358,12 @@
 			(project "churrodeck"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13828,6 +14495,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13902,6 +14575,17 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/fd070423-deb1-49fc-b1e7-dcb6b5ce0400"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

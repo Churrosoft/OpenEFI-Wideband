@@ -548,9 +548,9 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/72f573d0-71c3-4351-8823-94afb0724085")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -1118,7 +1118,7 @@
 		(descr "Through hole straight pin header, 2x12, 2.00mm pitch, double rows")
 		(tags "Through hole pin header THT 2x12 2.00mm double row")
 		(property "Reference" "U1"
-			(at 1 -2.06 360)
+			(at 1 -2.06 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "77c8f2d1-eaad-4f12-9a8b-6c22ffcdcab6")
@@ -1130,7 +1130,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 1 24.06 360)
+			(at 1 24.06 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f444e1d5-9d42-4e16-a8ea-06aec544abae")
@@ -1178,7 +1178,7 @@
 			)
 		)
 		(path "/488f9da0-4b9e-4057-bd21-b628c1b5046e")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr through_hole)
 		(fp_poly
@@ -1416,7 +1416,7 @@
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP3"
-			(at 0 -1.448 360)
+			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5109dd32-9fc9-4e1b-abb6-0bf004d65f71")
@@ -1428,7 +1428,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 1.55 360)
+			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "308f019a-dbf5-4b51-94dd-de81fb1947bd")
 			(effects
@@ -1476,9 +1476,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2d35847c-0d46-4d74-b312-275dfc106895")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -1560,7 +1560,7 @@
 			(uuid "4c268d1b-9e2c-4d8f-809d-84a9a78a9e36")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 360)
+			(at 0 -1.45 0)
 			(layer "F.Fab")
 			(uuid "45e67d21-2c53-4d99-8893-57506469de0e")
 			(effects
@@ -1647,9 +1647,9 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/8e7f699c-6f0f-4346-8002-c296d7f2ecbf")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -1841,9 +1841,9 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/1200e993-8740-45f5-bfd0-da03d5752ede")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -2035,9 +2035,9 @@
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/dfde6482-2c92-4775-bafd-4c0e780300c8")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -2230,9 +2230,9 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f09a4d36-3d55-42f7-8cdd-575917fbcb70")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -2680,7 +2680,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/4bfcc722-f65d-425a-9fba-13354bc1f36f")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2832,7 +2832,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "1e60b11a-630c-4f30-8ad4-ac0b756bfb6c")
@@ -2845,7 +2845,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "B.Fab")
 			(uuid "2e3109e3-75f8-4347-8e5d-dd68b8bbcc46")
 			(effects
@@ -2897,7 +2897,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/03d4791f-7c9a-4b77-93f0-e8bd22ce5343")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3001,7 +3001,7 @@
 			(uuid "220c8cf2-7e6e-45ac-a40e-0409e72f72a1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "a984c70d-1f53-4ccb-8005-44a9fd26e875")
 			(effects
@@ -3114,7 +3114,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/fa19c681-19b6-41c9-8a05-0afda51de2cf")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3308,7 +3308,7 @@
 		(descr "Chip Resistor Network, ROHM MNR14 (see mnr_g.pdf)")
 		(tags "resistor array")
 		(property "Reference" "RN5"
-			(at 0 2.8 360)
+			(at 0 2.8 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "52fd29cd-f9fe-45f4-998f-c0e2b2479185")
@@ -3321,7 +3321,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 -2.8 360)
+			(at 0 -2.8 0)
 			(layer "B.Fab")
 			(uuid "82a01e29-cc0f-4907-9e84-42d20caa1527")
 			(effects
@@ -3387,7 +3387,7 @@
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex*")
 		(path "/c2320ed5-521b-4dbe-b816-7926a7fce123")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3658,7 +3658,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ca0e4129-894b-4eec-b424-0e4cacc802dc")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3810,7 +3810,7 @@
 		(descr "Chip Resistor Network, ROHM MNR14 (see mnr_g.pdf)")
 		(tags "resistor array")
 		(property "Reference" "RN6"
-			(at 0 2.8 360)
+			(at 0 2.8 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "30008ce9-5b45-4c7b-be3f-97bd6dc26a1f")
@@ -3823,7 +3823,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 -2.8 360)
+			(at 0 -2.8 0)
 			(layer "B.Fab")
 			(uuid "a9111477-2d6c-4602-8c82-48b0e9b9195a")
 			(effects
@@ -3889,7 +3889,7 @@
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex*")
 		(path "/982a99b3-0f70-465a-a145-47dce9ccdf25")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4160,7 +4160,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/ea4fd888-3c65-4115-8708-a28824225203")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4419,7 +4419,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/08e446bb-6c9a-4c1b-b297-1f9ae75445a4")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4678,7 +4678,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/dc69d100-c391-4fe9-9f9f-6020cff7e662")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4872,7 +4872,7 @@
 		(descr "SOP, 16 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOP SO")
 		(property "Reference" "U5"
-			(at 0 6.099999 360)
+			(at 0 6.099999 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "d8d7e91f-4e3d-4752-b878-c287fcec6663")
@@ -4885,7 +4885,7 @@
 			)
 		)
 		(property "Value" "4511"
-			(at 0 -6.099999 360)
+			(at 0 -6.099999 0)
 			(layer "B.Fab")
 			(uuid "2c3c6d6c-8d36-442a-8d31-74b85c0c2efd")
 			(effects
@@ -4964,7 +4964,7 @@
 			)
 		)
 		(path "/f1273bc6-9080-4873-81f5-6dc9c13aff80")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5148,7 +5148,7 @@
 			(uuid "71fbb5b2-9c7d-4484-86d0-f4068ece26ae")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "d16b46ca-11a5-4611-b62f-dac25c4dca3d")
 			(effects
@@ -6157,7 +6157,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "6d4b612a-e829-4db7-92e7-4fad73751138")
@@ -6170,7 +6170,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "B.Fab")
 			(uuid "203b8218-902c-42bc-82d9-32ead2d783a8")
 			(effects
@@ -6222,7 +6222,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9ef32d2f-1711-43bc-9d95-5a89c4faa08c")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6326,7 +6326,7 @@
 			(uuid "83768c89-0989-4d82-9e97-f9f4c50dafe5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "2ad595c8-f470-4c7b-9bf8-ff44405079c0")
 			(effects
@@ -6697,7 +6697,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "0227a3a8-dd0d-40d9-a130-fa59cc47bc0a")
@@ -6710,7 +6710,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "B.Fab")
 			(uuid "aab99c34-3b2f-4840-92d8-73ca5bac62cd")
 			(effects
@@ -6762,7 +6762,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/f8cecd89-da35-41e1-9ea1-b088c5cac6cc")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "7_Segment_LED_v1.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6866,7 +6866,7 @@
 			(uuid "a0c76183-b604-484f-8ab5-7e94852f23a3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "cc367a8b-8b0f-4c01-ad93-9bf17373b762")
 			(effects
@@ -7023,7 +7023,7 @@
 			(xy 125.664 75.395) (xy 125.664 125.395)
 		)
 		(height 4)
-		(gr_text "50,0000 mm"
+		(gr_text "50.0000 mm"
 			(at 120.514 100.395 90)
 			(layer "Dwgs.User")
 			(uuid "2f51f5f6-739b-4cbd-b77a-159cad46fdf2")
@@ -7056,7 +7056,7 @@
 			(xy 125.664 75.395) (xy 205.664 75.395)
 		)
 		(height -3)
-		(gr_text "80,0000 mm"
+		(gr_text "80.0000 mm"
 			(at 165.664 71.245 0)
 			(layer "Dwgs.User")
 			(uuid "e23a7d4c-6b1b-4b6d-89e3-49f4e45366fe")

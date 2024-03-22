@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "0ac4620d-4da1-4f3f-a0a3-fd9d0e23020f")
 	(paper "A4")
 	(title_block
@@ -2356,6 +2356,24 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "DIO-000134-00"
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84343"
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ea90892-69d6-4f75-b282-073c8cb07d24")
 		)
@@ -2489,6 +2507,24 @@
 			)
 		)
 		(property "Description" "20V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "DIO-000398-00"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C550392"
 			(at 203.2 99.06 0)
 			(effects
 				(font
@@ -2645,6 +2681,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "PWR-000358-00"
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee664f98-aedc-4278-a533-4238bc5abae5")
 		)
@@ -2724,6 +2769,15 @@
 			)
 		)
 		(property "LCSC" "C15849"
+			(at 179.705 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "CAP-000202-00"
 			(at 179.705 67.31 0)
 			(effects
 				(font
@@ -2831,7 +2885,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8dcbdf7a-51fc-4bb7-bf86-355111ac8c34")
 		(property "Reference" "JP5"
 			(at 173.99 119.888 0)
@@ -2868,6 +2922,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 173.99 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "-"
+			(at 173.99 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 173.99 121.92 0)
 			(effects
 				(font
@@ -2952,6 +3024,15 @@
 			)
 		)
 		(property "LCSC" "C45783"
+			(at 217.805 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "CAP-000397-00"
 			(at 217.805 67.31 0)
 			(effects
 				(font
@@ -3099,6 +3180,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 195.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "TRA-000400-00"
+			(at 195.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C586650"
 			(at 195.58 95.25 0)
 			(effects
 				(font
@@ -3592,7 +3691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_TVS"
+		(property "Value" "SMCJ24CA"
 			(at 187.4266 98.933 90)
 			(effects
 				(font
@@ -3629,6 +3728,15 @@
 			)
 		)
 		(property "LCSC" "C151279"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "DIO-000284-00"
 			(at 185.42 97.79 0)
 			(effects
 				(font
@@ -3713,6 +3821,15 @@
 			)
 		)
 		(property "LCSC" "C15849"
+			(at 206.375 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "CAP-000202-00"
 			(at 206.375 67.31 0)
 			(effects
 				(font
@@ -3865,8 +3982,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C115324"
 			(at 198.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000118-00"
+			(at 195.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

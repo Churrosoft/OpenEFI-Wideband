@@ -1,22 +1,16 @@
 #include <Arduino.h>
 #include "pico/stdlib.h"
 
-extern "C" {
-  #include "can2040.h"
+extern "C"
+{
+#include "can2040.h"
 }
+#include "rusefi/wideband_control.h"
+#include "main.h"
 
-static struct can2040 cbus_wbo;
+struct can2040 cbus_wbo;
+uint32_t currentO2 = 0;
 static struct can2040 cbus_external;
-
-static void cbus_wbo_cb(struct can2040 *cd, uint32_t notify, struct can2040_msg *msg)
-{
-    // Add message processing code here...
-}
-static void cbus_ext_cb(struct can2040 *cd, uint32_t notify, struct can2040_msg *msg)
-{
-    // Add message processing code here...
-}
-
 
 static void PIOx_IRQHandler(void)
 {
@@ -28,6 +22,11 @@ static void PIOx_IRQHandler2(void)
     can2040_pio_irq_handler(&cbus_external);
 }
 
+static void cbus_ext_cb(struct can2040 *cd, uint32_t notify, struct can2040_msg *msg)
+{
+    // Add message processing code here...
+}
+
 void canbus_setup(void)
 {
     uint32_t sys_clock = 125000000, bitrate = 500000;
@@ -35,7 +34,7 @@ void canbus_setup(void)
 
     // Setup canbus (rusEFI WBO module)
     can2040_setup(&cbus_wbo, 0);
-    can2040_callback_config(&cbus_wbo, cbus_wbo_cb);
+    can2040_callback_config(&cbus_wbo, wbo_module_cb);
 
     // Setup canbus (rusEFI WBO module)
     can2040_setup(&cbus_external, 1);
@@ -56,19 +55,27 @@ void canbus_setup(void)
     can2040_start(&cbus_external, sys_clock, bitrate, 6, 7);
 }
 
-// the setup routine runs once when you press reset:
 void setup()
 {
-    // initialize the digital pin as an output.
     canbus_setup();
     pinMode(LED_BUILTIN, OUTPUT);
+    Serial.begin(115200);
 }
+
+u32_t previousMillis = 0;
+u16_t interval = 500;
 
 // the loop routine runs over and over again forever:
 void loop()
 {
-    digitalWrite(LED_BUILTIN, HIGH); // turn the LED on (HIGH is the voltage level)
-    delay(1000);                     // wait for a second
-    digitalWrite(LED_BUILTIN, LOW);  // turn the LED off by making the voltage LOW
-    delay(1000);                     // wait for a second
+    unsigned long currentMillis = millis();
+
+    if (currentMillis - previousMillis >= interval)
+    {
+        previousMillis = currentMillis;
+        digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));
+        wbo_module_loop();
+        Serial.print("WBO Value:");
+        Serial.println(currentO2);
+    }
 }

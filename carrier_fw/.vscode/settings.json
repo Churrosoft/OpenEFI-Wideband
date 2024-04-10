@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "cstddef": "cpp",
-        "pio.h": "c"
+        "pio.h": "c",
+        "cstdint": "cpp"
     }
 }

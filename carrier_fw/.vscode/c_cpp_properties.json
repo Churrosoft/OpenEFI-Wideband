@@ -1,3 +1,8 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
 {
     "configurations": [
         {
@@ -5,6 +10,7 @@
             "includePath": [
                 "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/include",
                 "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/src",
+                "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/lib/can2040/src",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/cores/rp2040",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/cores/rp2040/api/deprecated",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/cores/rp2040/api/deprecated-avr-comp",
@@ -72,7 +78,6 @@
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/pico-sdk/lib/btstack/platform/embedded",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/include",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/variants/rpipico",
-                "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/lib/can2040",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/libraries/ADCInput/src",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/libraries/ArduinoOTA/src",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/libraries/AudioBufferManager/src",
@@ -125,14 +130,14 @@
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/libraries/lwIP_w5100/src",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/libraries/lwIP_w5500/src",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/libraries/rp2040",
-                "",
-                "${workspaceFolder}/lib/can2040/src"
+                ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
                     "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/include",
                     "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/src",
+                    "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/lib/can2040/src",
                     "/home/fdsoftware/.platformio/packages/framework-arduinopico/cores/rp2040",
                     "/home/fdsoftware/.platformio/packages/framework-arduinopico/cores/rp2040/api/deprecated",
                     "/home/fdsoftware/.platformio/packages/framework-arduinopico/cores/rp2040/api/deprecated-avr-comp",
@@ -200,7 +205,6 @@
                     "/home/fdsoftware/.platformio/packages/framework-arduinopico/pico-sdk/lib/btstack/platform/embedded",
                     "/home/fdsoftware/.platformio/packages/framework-arduinopico/include",
                     "/home/fdsoftware/.platformio/packages/framework-arduinopico/variants/rpipico",
-                    "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/lib/can2040",
                     "/home/fdsoftware/.platformio/packages/framework-arduinopico/libraries/ADCInput/src",
                     "/home/fdsoftware/.platformio/packages/framework-arduinopico/libraries/ArduinoOTA/src",
                     "/home/fdsoftware/.platformio/packages/framework-arduinopico/libraries/AudioBufferManager/src",
@@ -293,17 +297,6 @@
                 "-mthumb",
                 ""
             ]
-        },
-        {
-            "name": "WBO",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "defines": [],
-            "compilerPath": "/home/fdsoftware/.platformio/packages/toolchain-gccarmnoneeabi@1.90201.191206/bin/arm-none-eabi-gcc",
-            "cStandard": "c17",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "linux-gcc-arm"
         }
     ],
     "version": 4

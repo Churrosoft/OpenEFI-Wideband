@@ -1,12 +1,6 @@
-#include <Arduino.h>
-#include "pico/stdlib.h"
-
-extern "C"
-{
-#include "can2040.h"
-}
-#include "rusefi/wideband_control.h"
 #include "main.h"
+#include "rusefi/wideband_control.h"
+#include "display/display.h"
 
 struct can2040 cbus_wbo;
 uint32_t currentO2 = 0;
@@ -68,7 +62,7 @@ u16_t interval = 500;
 // the loop routine runs over and over again forever:
 void loop()
 {
-    unsigned long currentMillis = millis();
+    u32_t currentMillis = millis();
 
     if (currentMillis - previousMillis >= interval)
     {
@@ -78,4 +72,10 @@ void loop()
         Serial.print("WBO Value:");
         Serial.println(currentO2);
     }
+    updateDisplayValue();
+}
+
+void sendRusEfiWbo(struct can2040_msg *msg)
+{
+    can2040_transmit(&cbus_external, msg);
 }

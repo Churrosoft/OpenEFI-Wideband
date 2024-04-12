@@ -1,6 +1,7 @@
 #include "wideband_control.h"
 
-// loop cada 0.5s? para pedir info sobre la wbo
+// loop cada 0.5s? , wbo puede funcionar sin necesitar enviar el primer TX, actualiza cada 10mS
+// https://github.com/mck1117/wideband/blob/bffc99c567758165da16b2db5406ac5410471e85/firmware/can.cpp#L44
 void wbo_module_loop()
 {
     // valores a enviar:
@@ -51,5 +52,8 @@ void wbo_module_cb(struct can2040 *cd, uint32_t notify, struct can2040_msg *msg)
                 break;
             }
         }
+
+        // forward to external CAN
+        sendRusEfiWbo(msg);
     }
 }

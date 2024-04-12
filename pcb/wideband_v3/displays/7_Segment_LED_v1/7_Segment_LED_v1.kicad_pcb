@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20231014)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -55,6 +55,76 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
 				(type "core")
 				(thickness 1.51)
 				(material "FR4")
@@ -481,7 +551,8 @@
 			(uuid "bb8b5edc-a292-42e5-92aa-b5bcbcce2226")
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" locked
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "421bd139-1348-4778-a104-2af85c22ab91")
 		(at 130.664 80.395)
@@ -1110,9 +1181,8 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_2x12_P2.00mm_Vertical"
-		locked
-		(layer "F.Cu"
-		)
+		(locked yes)
+		(layer "F.Cu")
 		(uuid "7be50e30-af18-44ac-9b74-ca829e6d2af5")
 		(at 163.679 99.77)
 		(descr "Through hole straight pin header, 2x12, 2.00mm pitch, double rows")
@@ -1580,7 +1650,8 @@
 			(uuid "079fb25d-8d27-4bb9-8943-be26748ff1a5")
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" locked
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9ae52a17-486c-44a9-ba67-6c7a8af5b0d1")
 		(at 130.664 120.395)
@@ -1774,7 +1845,8 @@
 			(uuid "61f888ec-3b6d-4404-b194-405719603b3a")
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" locked
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9fbfbcdd-3244-44a0-a9c2-053d597a549d")
 		(at 200.664 120.395)
@@ -1968,7 +2040,8 @@
 			(uuid "abf275f3-677e-4450-8ac5-6bc13891e392")
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" locked
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b96b7eba-d382-4196-b2e5-15f8b70033a7")
 		(at 200.664 80.395)
@@ -2163,9 +2236,8 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
-		locked
-		(layer "F.Cu"
-		)
+		(locked yes)
+		(layer "F.Cu")
 		(uuid "fc98240c-08b2-4915-9e24-e676aa18f74d")
 		(at 129.389 92.77)
 		(descr "Through hole straight pin header, 2x07, 2.54mm pitch, double rows")
@@ -4844,7 +4916,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "c811501a-1fad-4e87-b015-aadefa87eaee")
-		(at 160.0048 94.5974 180)
+		(at 185.874 97.885 180)
 		(property "Reference" "G***"
 			(at 0 0 180)
 			(layer "B.SilkS")
@@ -7000,7 +7072,7 @@
 		)
 	)
 	(gr_text "Diseñado en Argentina"
-		(at 165.5674 99.9822 0)
+		(at 191.404 103.655 0)
 		(layer "B.SilkS")
 		(uuid "90757b9f-64cc-46cc-8e4a-28600dcc6f69")
 		(effects
@@ -7079,7 +7151,7 @@
 			(xy 125.664 75.395) (xy 125.664 125.395)
 		)
 		(height 4)
-		(gr_text "50,0000 mm"
+		(gr_text "50.0000 mm"
 			(at 120.514 100.395 90)
 			(layer "Dwgs.User")
 			(uuid "2f51f5f6-739b-4cbd-b77a-159cad46fdf2")
@@ -7112,7 +7184,7 @@
 			(xy 125.664 75.395) (xy 205.664 75.395)
 		)
 		(height -3)
-		(gr_text "80,0000 mm"
+		(gr_text "80.0000 mm"
 			(at 165.664 71.245 0)
 			(layer "Dwgs.User")
 			(uuid "e23a7d4c-6b1b-4b6d-89e3-49f4e45366fe")

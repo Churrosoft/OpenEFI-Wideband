@@ -1,14 +1,20 @@
 #pragma once
+
 #include "main.h"
 #include <cstdint>
 
-extern uint8_t digit1,digit2,digit3,digit4;
+extern uint8_t digit1, digit2, digit3;
+
+extern bool dp1,dp2,dp3;
 
 #define DISPLAY_UPDATE_RATE 50
+
 void setupDisplay();
-void updateDisplayValue(); 
-void updateBCDFromNumber(u8_t number);
-void setSelectedDisplay(u8_t display_number);
+
+void updateDisplayValue();
+
+void updateBCDFromNumber(u8_t number, bool showDP);
+void setDigits(u8_t (&digits)[3], bool (&dp)[3]);
 
 #define DISPLAY_ENABLE_PIN 11
 #define DISPLAY_PWM_PIN 19

@@ -51,8 +51,12 @@ void canbus_setup(void)
 
 void setup()
 {
+    setupDisplay();
     canbus_setup();
     pinMode(LED_BUILTIN, OUTPUT);
+    u8_t digits[3] = {1,2,3};
+    bool dp[3] = {false,true,false};
+    setDigits(digits,dp);
     Serial.begin(115200);
 }
 

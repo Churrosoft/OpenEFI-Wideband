@@ -20,13 +20,26 @@ void wbo_module_loop()
 
 void wbo_module_cb(struct can2040 *cd, uint32_t notify, struct can2040_msg *msg)
 {
+
+     //190 ---
+     // a0,0,
+     // 9b,27
+     // b,3,
+     // 0,0,5
+     
+     
+     // 191 --- 
+     // 2c,1,
+     // 2e,0,
+     // 0,0,75,0,5
+
     // rusEFI Wbo module response
-    if (msg->id == 0x190 || msg->id == 0x192)
+    if (msg->id == 0x190 || msg->id == 0x192 || true)
     {
 
         uint32_t inLambda;
         inLambda = (msg->data[3] << 8) | msg->data[2]; // Combining 2 bytes of data into single variable factor is 0.0001 so lambda 1 comes in as 10K
-        if (msg->data[1] == 0x1)                       // Checking if lambda is valid
+        if (msg->data[1] == 0x1)                     // Checking if lambda is valid
         {
             switch (msg->id)
             {

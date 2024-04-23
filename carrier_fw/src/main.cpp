@@ -3,7 +3,7 @@
 #include "display/display.h"
 
 struct can2040 cbus_wbo;
-uint32_t currentO2 = 0;
+uint32_t currentO2 = 2;
 static struct can2040 cbus_external;
 
 static void PIOx_IRQHandler(void)
@@ -23,8 +23,7 @@ static void cbus_ext_cb(struct can2040 *cd, uint32_t notify, struct can2040_msg 
 
 void canbus_setup(void)
 {
-    uint32_t sys_clock = 125000000, bitrate = 500000;
-    uint32_t gpio_rx = 4, gpio_tx = 5;
+    uint32_t bitrate = 500000;
 
     // Setup canbus (rusEFI WBO module)
     can2040_setup(&cbus_wbo, 0);
@@ -45,19 +44,19 @@ void canbus_setup(void)
     NVIC_EnableIRQ(PIO1_IRQ_0_IRQn);
 
     // Start canbus
-    can2040_start(&cbus_wbo, sys_clock, bitrate, 4, 5);
-    can2040_start(&cbus_external, sys_clock, bitrate, 6, 7);
+    can2040_start(&cbus_wbo, F_CPU, bitrate, 28, 29);
+    can2040_start(&cbus_external, F_CPU, bitrate, 6, 7);
 }
 
 void setup()
 {
     canbus_setup();
-    pinMode(LED_BUILTIN, OUTPUT);
+    //pinMode(LED_BUILTIN, OUTPUT);
     Serial.begin(115200);
 }
 
 u32_t previousMillis = 0;
-u16_t interval = 500;
+u16_t interval = 1000;
 
 // the loop routine runs over and over again forever:
 void loop()

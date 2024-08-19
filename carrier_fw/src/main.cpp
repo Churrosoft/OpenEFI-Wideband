@@ -68,9 +68,8 @@ void loop()
         previousMillis = currentMillis;
         digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));
         wbo_module_loop();
-        Serial.print("WBO Value:");
-        Serial.println(currentO2);
     }
+    
     updateDisplayValue();
 }
 

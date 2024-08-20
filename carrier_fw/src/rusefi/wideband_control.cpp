@@ -23,6 +23,9 @@ void wbo_module_loop()
     can2040_transmit(&cbus_wbo, &out_msg);
     Serial.printf("190--%02X-%02X-%02X-%02X-%02X-%02X-%02X-%02X-\r\n", data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7]);
     Serial.printf("191--%02X-%02X-%02X-%02X-%02X-%02X-%02X-%02X-\r\n", data2[0], data2[1], data2[2], data2[3], data2[4], data2[5], data2[6], data2[7]);
+    if (data[1] = 0x1){
+        Serial.printf("VALID LAMBDA: %d \r\n", currentO2);
+    }
 }
 
 void wbo_module_cb(struct can2040 *cd, uint32_t notify, struct can2040_msg *msg)

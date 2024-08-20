@@ -8,9 +8,9 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/fdsoftware/churrosoft/OpenEFI-Wideband/carrier_fw/include",
-                "/home/fdsoftware/churrosoft/OpenEFI-Wideband/carrier_fw/src",
-                "/home/fdsoftware/churrosoft/OpenEFI-Wideband/carrier_fw/lib/can2040/src",
+                "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/include",
+                "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/src",
+                "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/lib/can2040/src",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/cores/rp2040",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/cores/rp2040/api/deprecated",
                 "/home/fdsoftware/.platformio/packages/framework-arduinopico/cores/rp2040/api/deprecated-avr-comp",
@@ -135,9 +135,9 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/fdsoftware/churrosoft/OpenEFI-Wideband/carrier_fw/include",
-                    "/home/fdsoftware/churrosoft/OpenEFI-Wideband/carrier_fw/src",
-                    "/home/fdsoftware/churrosoft/OpenEFI-Wideband/carrier_fw/lib/can2040/src",
+                    "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/include",
+                    "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/src",
+                    "/home/fdsoftware/churrosoft/openefi/OpenEFI-Wideband/carrier_fw/lib/can2040/src",
                     "/home/fdsoftware/.platformio/packages/framework-arduinopico/cores/rp2040",
                     "/home/fdsoftware/.platformio/packages/framework-arduinopico/cores/rp2040/api/deprecated",
                     "/home/fdsoftware/.platformio/packages/framework-arduinopico/cores/rp2040/api/deprecated-avr-comp",
